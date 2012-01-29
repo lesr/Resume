@@ -5,9 +5,9 @@
  
 	/*	$("#imgdiv").fadeIn(5000);
 
-		$("#imgdiv").animate({left: '+=680px'}, 5500); */
+		$("#imgdiv").animate({left: '+=680px'}, 5500); 
 		$('.nxtimg, #ms1').jrumble({
-		rangeX: 2, rangeY: 2, rumbleSpeed: 50, rumbleEvent: 'hover'
+		rangeX: 2, rangeY: 2, rumbleSpeed: 50, rumbleEvent: 'hover' */
 	});		
 		$('#content').load('home.html');					  /* start with skills content                */
 		$(".slideDiv").hide();								  /* insure sliding div is closed             */
