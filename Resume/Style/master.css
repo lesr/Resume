@@ -1,0 +1,188 @@
+body {
+	background-image:url(../Images/board.jpg); 
+	background-attachment:fixed;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height:100%;
+	font-size:1.1em;
+	font-weight: bold; 
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	overflow-y:hidden;
+	opacity:1; 
+	background-color: white; 
+	margin-left:5%;
+	height:100%;
+	top:0px;
+	position:absolute;
+	min-width:90%;
+}
+
+/*   header images                       */
+
+#imgdiv {
+	background-image:url(../Images/board2.png); 
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	border-style:solid;
+	border-width:4px;
+	border-color:white;
+	max-height:175px;
+	min-width:96%;
+	position:relative;
+}
+
+#ms1 {
+	margin-left:55%;			/* changing this to px will cause screen resolution to break  */
+}
+
+.nxtimg {
+
+}
+
+hr {
+	border-color:#cc3300;
+	border-width:3px;
+	width:480px;
+	margin-left:635px;
+	border-style:ridge;
+	position:static;
+}
+
+#h1T{
+   color:white;
+   font-weight:bold;
+   font-size:1.2em;
+   letter-spacing:4px;
+   margin-left: 15px;
+   position:relative;
+}
+
+#main-nav {
+	overflow:hidden;
+	background-color: maroon; 
+	padding-left:200px;
+	height:40px;
+	top:-10px;
+    position:relative;	
+} 
+
+#sideP {
+	overflow:hidden;
+	background: #ECD672;
+	border-color:maroon;
+	border-width:2px;
+	border-style:solid;	
+	font-size:.8em;
+	height:69.3%;
+	width:18.1%;
+	margin-left:.4%;
+	margin-top:5px;
+	text-align:center;
+	position:absolute;
+}
+
+#content {
+	background: silver;
+	border-color:maroon;
+	border-width:2px;
+	border-style:solid;
+ 	opacity:1;          
+	display:block;
+	overflow:auto;
+	height:69.3%;
+	width:80.2%;
+	margin-left:19%;
+	margin-top:5px;
+	position:absolute;
+}
+
+#me1 {
+	top:0;
+	left:0;
+	text-align: center;
+	position:absolute;
+}
+
+#mfT {
+	top:220px;
+	left:200px;
+	position:absolute;
+}
+
+#lpT {
+	top:50px;
+	left:650px;
+	position:absolute;
+}
+
+h2 {
+	color:green;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-size:115%;
+}
+
+ul.nav li {
+   float:left;
+   margin-left:40px;
+   margin-top:5px;
+}
+
+a {text-decoration: none;
+   color:gold;
+   font-size:1em;	
+}
+
+a:hover    {
+	color:cyan;
+}
+
+
+.contarrow li{
+	clear:both;
+	text-align:left;
+	background-image: url(../Images/pencil.png);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	padding-left: 20px;
+	padding-bottom:5px;
+	display:block;
+} 
+
+
+ul {list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.hist {list-style-type: none;
+	margin-left: 15px;
+	margin-top:8px;
+	padding: 0px;
+}
+ul.hist li{
+	list-style-type: disc;
+}
+
+.slideDiv {
+	height:auto;
+	background-image:url(../Images/ntbk.jpg);
+	background-color: beige;
+	padding-top:15px;
+	padding-left:80px;
+	padding-bottom:10px;
+	display:none;
+}
+
+a.showhide {
+	padding-left:2px;
+	font-size: 1em;
+	font-weight:900;
+	font-style:italic;
+	color:#993300;
+}

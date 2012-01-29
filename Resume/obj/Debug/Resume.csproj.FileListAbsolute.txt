@@ -1,0 +1,5 @@
+C:\myStuff\VSProjects\Resume\Resume\bin\Resume.dll
+C:\myStuff\VSProjects\Resume\Resume\bin\Resume.pdb
+C:\myStuff\VSProjects\Resume\Resume\obj\Debug\ResolveAssemblyReference.cache
+C:\myStuff\VSProjects\Resume\Resume\obj\Debug\Resume.dll
+C:\myStuff\VSProjects\Resume\Resume\obj\Debug\Resume.pdb
